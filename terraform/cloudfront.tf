@@ -41,6 +41,8 @@ resource "aws_cloudfront_distribution" "sophia-quadri-dev" {
     cached_methods         = ["GET", "HEAD"]
     target_origin_id       = local.origin_id
 
+    default_ttl = 300
+
     forwarded_values {
       query_string = false
       cookies {
