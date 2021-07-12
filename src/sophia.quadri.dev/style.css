@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+.brb {
+    color: #0bb6b6;
+    font-weight: 900;
+    font-size: 3.5em;
+    
+    
+}
+
+
+
+.fab .far {
+    color: #5712f8; 
+}
+
+
+.git {
+    padding: 50px 50px 0px 50px;
+    font-size:100px;
+}
+
+.git:hover {
+    font-size: 200px;
+}
+
+
+.email {
+    padding: 50px;
+    font-size: 100px;
+}
+
+.email:hover {
+    font-size: 200px;
+}
+
+footer {
+    text-align: center;
+    
+    
+}
