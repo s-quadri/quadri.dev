@@ -1,57 +1,23 @@
-body {
-    font-family: "Lucida Console", monospace;
-    text-align: center;
-}
 
-.brb {
-    color: #0bb6b6;
-    font-weight: 900;
-    font-size: 3.5em;
-}
+body{
 
-.fab .far {
-    color: #5712f8;
+    width: 100%;
+    height: 100%;
+    background: #F8F8F8;
     
 }
 
-.git {
-    padding: 50px 50px 0px 50px;
-    font-size:100px;
+
+
+#greeting{
+    font-family: "Montserrat", sans-serif;
+    color: #1C164F;
+    text-align: center;
 }
 
-.git a:hover {
-    font-size: 200px;
-    color: #27c0b3;
-}
-
-.email {
-    padding: 50px;
-    font-size: 100px;
-}
-
-.email a:hover {
-    font-size: 200px;
-    color: #27c0b3;
-}
-
-.fcc {
-    font-size: 100px;
-    padding: 0px 50px 50px 50px;
-}
-
-.fcc a:hover {
-    font-size: 200px;
-    color: #27c0b3;
-}
-
-.etsy {
-    font-size: 100px;
-}
-
-.etsy a:hover {
-    font-size: 200px;
-    color: #27c0b3;
-}
-footer {
-    text-align: center;                  
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
 }
