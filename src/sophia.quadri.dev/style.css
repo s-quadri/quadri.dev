@@ -7,8 +7,6 @@ body{
     
 }
 
-
-
 #greeting{
     font-family: "Montserrat", sans-serif;
     color: #1C164F;
@@ -16,8 +14,63 @@ body{
 }
 
 #footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;   
 }
+
+#footer-content{
+    margin: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;  
+}
+
+.links{
+    padding: 0px;
+    font-size: 50px;
+    display: inline-flex;
+    justify-content: space-between;   
+}
+
+.fab{
+    color: #6447a8;
+}
+
+.far{
+    color: #6447a8;
+}
+
+.git {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.git a:hover{
+    font-size: 100px;
+    color: #27c0b3;
+}
+
+.email{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.email a:hover{
+    font-size: 100px;
+    color: #27c0b3;
+}
+
+.linkedin{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.linkedin a:hover{
+    font-size: 100px;
+    color: #27c0b3;
+}
+
