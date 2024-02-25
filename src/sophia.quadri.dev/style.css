@@ -13,6 +13,22 @@ body{
     text-align: center;
 }
 
+#portfolio{
+    text-align: center;
+    padding: 100px;
+    font-family: "Pacifico";
+}
+
+.portfolio{
+    font-family: "Pacifico";
+    color:  #35483F;
+    font-size: 50px;
+}
+
+.portfolio a:hover{
+    font-size: 100px;
+}
+
 #footer{
     
     position: absolute;
