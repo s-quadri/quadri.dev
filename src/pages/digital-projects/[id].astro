@@ -6,7 +6,7 @@ import LayoutBlogPost from "../../layouts/LayoutBlogPost.astro";
 export const prerender = true;
 
 export async function getStaticPaths() {
-  return (await getCollection("blog")).map(({ id }) => ({
+  return (await getCollection("digitalProjects")).map(({ id }) => ({
     params: { id: id as string },
   }));
 }
@@ -17,7 +17,7 @@ if (!id) {
   throw new Error("id is missing");
 }
 
-const entry = await getEntry("blog", id);
+const entry = await getEntry("digitalProjects", id);
 
 if (!entry) {
   return Astro.redirect("/404");
