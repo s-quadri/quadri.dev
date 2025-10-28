@@ -1,7 +1,7 @@
 ---
-title: "Hello, World"
-description: "this is a post example"
-pubDate: 2023-01-21
+title: "Climbing Wall"
+description: "Small climbing wall"
+pubDate: 2022-08-14
 category: "intro"
 draft: false
 ---
