@@ -21,6 +21,7 @@ jobs:
 
       - name: Build static site
         run: |
+          npm install
           npm run build
 
       - name: Configure credentials
