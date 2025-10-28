@@ -2,7 +2,7 @@ name: deploy-s3-staging
 on:
   push:
     branches:
-      - 'staging'
+      - "staging"
   workflow_dispatch:
 
 jobs:
@@ -13,6 +13,16 @@ jobs:
       - name: Check out git repo
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
+      - name: Configure npm
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
+        with:
+          node-version: 24
+          cache: 'npm'
+
+      - name: Build static site
+        run: |
+          npm run build
+
       - name: Configure credentials
         uses: aws-actions/configure-aws-credentials@00943011d9042930efac3dcd3a170e4273319bc8 # v5.1.0
         with:
@@ -21,4 +31,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Update static site files in S3 bucket
-        run: aws s3 sync ./src/sophia.quadri.dev s3://staging.sophia.quadri.dev --delete
+        run: aws s3 sync ./dist s3://staging.sophia.quadri.dev --delete
