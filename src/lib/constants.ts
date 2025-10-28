@@ -1,9 +1,9 @@
 export const LINKS = {
   github: "https://github.com/s-quadri",
   linkedin: "https://www.linkedin.com/in/sophia-quadri/",
-  medium: "https://ladvace.medium.com/",
+  instagram: "https://www.instagram.com/squad.ri_goals/",
   discord: "https://discordapp.com/users/163300027618295808",
-  dribble: "https://dribbble.com/Ladvace_Jace",
+  
   email: "sophia@quadri.dev<",
 };
 

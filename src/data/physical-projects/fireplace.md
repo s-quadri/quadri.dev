@@ -6,13 +6,9 @@ category: "intro"
 draft: false
 ---
 
-# Hi there!
+# TV too high!
 
-This Markdown file creates a page at `your-domain.com/blog/post1/`
+The living room initially had a large stone faux fireplace wall with the TV mounted very high for such a shallow room.
 
-It probably isn't styled much, but Markdown does support:
+The stone was removed and the wall was demoed. A new wall was built with a new frame for an electric fireplace to replace the gas one that was there previously. A small counter/mantle was added in order to give depth. The TV was then mounted on the newly built shiplap covered wall.
 
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!

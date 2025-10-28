@@ -8,7 +8,9 @@ draft: false
 
 # Time for a fence!
 
-This fence was designed in SketchUp. 
+Our backyard does not have a fence, so I decided to design and build one. It should help keep our dogs in and the wild animals out. 
+
+This fence was designed in SketchUp.
 
 The whole fence is approximately 420 linear feet and will take **forever** to finish.
 

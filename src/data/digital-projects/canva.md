@@ -6,13 +6,6 @@ category: "intro"
 draft: false
 ---
 
-# Hi there!
+# Canva templates and logo examples
 
-This Markdown file creates a page at `your-domain.com/blog/post1/`
-
-It probably isn't styled much, but Markdown does support:
-
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!
+Here are a few things I've made in Canva for various projects.

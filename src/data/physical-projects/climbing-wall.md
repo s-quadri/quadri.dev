@@ -6,13 +6,7 @@ category: "intro"
 draft: false
 ---
 
-# Hi there!
+# In addition to fun wall colors, we added a small bouldering wall!
 
-This Markdown file creates a page at `your-domain.com/blog/post1/`
+First we added furring strips to the wall. Next we drilled hundreds of holes in 3/4" plywood to accept t-nuts. The plywood was then cut to fit the odd wall shape. Climbing holds were added and climbing ensued!
 
-It probably isn't styled much, but Markdown does support:
-
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!

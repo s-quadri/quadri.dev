@@ -6,13 +6,6 @@ category: "intro"
 draft: false
 ---
 
-# Hi there!
+# Dieing to cut
 
-This Markdown file creates a page at `your-domain.com/blog/post1/`
-
-It probably isn't styled much, but Markdown does support:
-
-- **bold** and _italics._
-- lists
-- [links](https://astro.build)
-- and more!
+I've utilized others files as well as created my own for various Cricut projects. I've used iron on and adhesive vinyl for these projects.
