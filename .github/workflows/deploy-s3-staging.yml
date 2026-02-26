@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  push-to-s3:
+  build-and-push:
     runs-on: ubuntu-latest
 
     steps:
