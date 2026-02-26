@@ -8,3 +8,10 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+  - package-ecosystem: "npm"
+    groups:
+      node-packages:
+        patterns: ["*"]
+    directory: "/"
+    schedule:
+      interval: "monthly"
