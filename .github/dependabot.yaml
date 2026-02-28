@@ -3,15 +3,23 @@ version: 2
 updates:
   - package-ecosystem: "github-actions"
     groups:
+      github-actions-VULN:
+        patterns: ["*"]
+        applies-to: security-updates
       github-actions:
         patterns: ["*"]
+        applies-to: version-updates
     directory: "/"
     schedule:
       interval: "monthly"
   - package-ecosystem: "npm"
     groups:
+      node-packages-VULN:
+        patterns: ["*"]
+        applies-to: security-updates
       node-packages:
         patterns: ["*"]
+        applies-to: version-updates
     directory: "/"
     schedule:
       interval: "monthly"
