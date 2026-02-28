@@ -1,0 +1,29 @@
+name: Update Production branch
+on:
+  workflow_dispatch:
+
+jobs:
+  update-prod-against-staging:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out git repo
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: 'production'
+          fetch-depth: 0
+          token: ${{ github.token }}
+
+      - name: Set up git user
+        uses: fregante/setup-git-user@024bc0b8e177d7e77203b48dab6fb45666854b35 # v2.0.2
+
+      - name: Set up SSH deploy key
+        uses: webfactory/ssh-agent@a6f90b1f127823b31d4d4a8d96047790581349bd # v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
+      - name: Reset production branch to staging
+        run: git reset --hard origin/staging
+
+      - name: Force-push production branch to Github
+        run: git push --force origin production
