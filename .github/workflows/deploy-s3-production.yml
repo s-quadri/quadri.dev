@@ -1,4 +1,4 @@
-name: deploy-s3-production
+name: Deploy Production
 on:
   push:
     branches:
