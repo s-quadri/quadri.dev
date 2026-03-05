@@ -31,7 +31,7 @@
     "motion": "^12.34.3",
     "reading-time": "^1.5.0",
     "solid-js": "^1.9.11",
-    "svelte": "^5.53.6"
+    "svelte": "^5.53.7"
   },
   "devDependencies": {
     "@types/d3": "^7.4.3",
